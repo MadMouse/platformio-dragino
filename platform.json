@@ -20,7 +20,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/MadMouse/platformio-dragino"
+    "url": "https://github.com/MadMouse/platformio-dragino.git"
   },
   "version": "1.0.0",
   "frameworks": {
@@ -38,7 +38,7 @@
     "framework-arduinola66": {
       "type": "framework",
       "owner": "MadMouse Consulting",
-      "version": "~1.5.0",
+      "version": "~1.0.0",
       "optional": true
     },
     "tool-la66elftool": {
