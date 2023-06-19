@@ -35,7 +35,7 @@ mcu = board.get("build.mcu", "")
 is_asr6601 = mcu.startswith("asr6601")
 arch = "asr6601" if is_asr6601 else "asr650x"
 
-FRAMEWORK_DIR = platform.get_package_dir("framework-arduinocubecell")
+FRAMEWORK_DIR = platform.get_package_dir("framework-arduinola66")
 CORE_DIR = os.path.join(FRAMEWORK_DIR, "cores", core)
 assert os.path.isdir(FRAMEWORK_DIR)
 
